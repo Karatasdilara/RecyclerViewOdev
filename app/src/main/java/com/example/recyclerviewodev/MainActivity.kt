@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.rv.setHasFixedSize(true)
+
         binding.rv.layoutManager = StaggeredGridLayoutManager(3,StaggeredGridLayoutManager.HORIZONTAL)
 
         val a1 = Animals("kitten","KEDİ")
